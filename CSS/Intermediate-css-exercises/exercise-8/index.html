@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Nature Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f8ff;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+      gap: 15px; /* Space between images */
+    }
+    .gallery img {
+      width: 100%; /* Make images fill their grid cells */
+      height: 200px; /* Set a uniform height for all images */
+      object-fit: cover; /* Crop images to fit the container */
+      border-radius: 8px; /* Rounded corners */
+      transition: transform 0.3s; /* Animation effect on hover */
+    }
+    .gallery img:hover {
+      transform: scale(1.05); /* Zoom effect on hover */
+    }
+  </style>
+</head>
+<body>
+
+<h1>Responsive Nature Image Gallery</h1>
+<div class="gallery">
+  <img src="assets/imag1.jpg" alt="Nature Image 1">
+  <img src="assets/image2.jpg" alt="Nature Image 2">
+  <img src="assets/image3.jpg" alt="Nature Image 3">
+  <img src="assets/image4.jpg" alt="Nature Image 4">
+</div>
+
+</body>
+</html>

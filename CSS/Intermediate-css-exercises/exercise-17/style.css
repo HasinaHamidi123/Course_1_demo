@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Masked Image Styles */
+.masked-image {
+    width: 300px; /* Define the width of the image */
+    height: 300px; /* Define the height of the image */
+    background-image: url('assets/image.jpg'); /* Replace 'your-image.jpg' with the actual image filename */
+    mask-image: url('assets/mask.svg'); /* Ensure this points to your SVG mask file */
+    mask-size: cover; /* Adjusted to cover the entire div */
+    mask-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the div */
+    margin: 0 auto; /* Center the masked image */
+}
+
+/* Media Queries for Responsive Typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

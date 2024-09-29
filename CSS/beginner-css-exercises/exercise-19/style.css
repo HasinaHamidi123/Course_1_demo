@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box; /* Apply border-box sizing to all elements */
+}
+
+img {
+    display: block; /* Make images block elements */
+    max-width: 100%; /* Ensure the image is responsive */
+    margin: 20px auto; /* Center the image */
+}
+
+.container {
+    text-align: center; /* Center the text */
+}

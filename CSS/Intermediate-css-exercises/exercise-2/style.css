@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input:focus {
+    border-color: #007BFF; /* Change color on focus */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

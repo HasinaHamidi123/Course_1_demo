@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 3: Media Queries</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 18px;
+    }
+
+    /* Media query for devices with a width less than 600px */
+    @media (max-width: 600px) {
+      body {
+        background-color: lightcoral;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>Responsive Design with Media Queries</h1>
+<p>This is a demonstration of media queries. When the width of the viewport is less than 600px, the background color of this webpage will change to light coral, and the font size of the text will decrease.</p>
+<p>Resize the browser window or view this page on a smaller device to see the effect.</p>
+
+<nav>
+  <a href="../../index.html">Back to Main</a> <!-- Link back to the main project index -->
+</nav>
+</body>
+</html>

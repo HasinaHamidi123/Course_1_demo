@@ -1,0 +1,13 @@
+.rotate {
+    width: 200px;
+    height: 100px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 0.3s;
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    margin: 5px 0;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.accordion-content.active {
+    display: block; /* Show content when active */
+}

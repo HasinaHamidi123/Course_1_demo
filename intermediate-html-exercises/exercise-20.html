@@ -1,0 +1,38 @@
+<!-- canvas.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Canvas Drawing Example</h1>
+</header>
+<main>
+    <h2>Drawing a Rectangle</h2>
+    <canvas id="myCanvas" width="400" height="200"></canvas>
+</main>
+<footer>
+    <p>&copy; 2024 Your Website</p>
+</footer>
+<script>
+    const canvas = document.getElementById('myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Draw a rectangle
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(50, 50, 300, 100);
+</script>
+<p><a href="../index.html">Go back to main page</a></p>
+</body>
+</html>

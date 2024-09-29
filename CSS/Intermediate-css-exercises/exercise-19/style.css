@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px; /* Base font size */
+    line-height: 1.2; /* Base line height */
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px; /* Base font size */
+    line-height: 1.3; /* Base line height */
+}
+
+p {
+    text-align: center;
+    font-size: 18px; /* Base font size */
+    line-height: 1.6; /* Base line height */
+}
+
+/* Media Queries for Responsive Typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Reduced font size for medium screens */
+        line-height: 1.3; /* Adjusted line height */
+    }
+    h2 {
+        font-size: 22px; /* Reduced font size for medium screens */
+        line-height: 1.3; /* Adjusted line height */
+    }
+    p {
+        font-size: 16px; /* Reduced font size for medium screens */
+        line-height: 1.5; /* Adjusted line height */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px; /* Further reduced font size for small screens */
+        line-height: 1.4; /* Adjusted line height */
+    }
+    h2 {
+        font-size: 18px; /* Further reduced font size for small screens */
+        line-height: 1.4; /* Adjusted line height */
+    }
+    p {
+        font-size: 14px; /* Further reduced font size for small screens */
+        line-height: 1.4; /* Adjusted line height */
+    }
+}

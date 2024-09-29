@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+}
+
+li::before {
+    content: "✔️"; /* Add a checkmark before each item */
+    margin-right: 10px;
+}
